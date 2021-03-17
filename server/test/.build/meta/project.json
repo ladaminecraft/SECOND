@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "functions": [
+    {
+      "name": "myCustomResolver",
+      "handler": "myCustomResolver.handler",
+      "pathToFunction": "src/resolvers/myCustomResolver/handler.ts"
+    }
+  ]
+}

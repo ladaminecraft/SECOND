@@ -1,0 +1,17 @@
+{
+  "functions": [
+    {
+      "name": "myCustomResolver",
+      "handler": "myCustomResolver.handler"
+    }
+  ],
+  "resolvers": [
+    {
+      "name": "myCustomResolver",
+      "functionName": "myCustomResolver",
+      "gqlType": "Query"
+    }
+  ],
+  "triggers": [],
+  "webhooks": []
+}
